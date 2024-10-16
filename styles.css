@@ -1,8 +1,8 @@
 :root {
-    --primary: #3498db;
-    --primary-dark: #2980b9;
-    --secondary: #2ecc71;
-    --secondary-dark: #27ae60;
+    --primary: #007AFF;
+    --primary-dark: #007bff7a;
+    --secondary: #007bff86;
+    --secondary-dark: #007AFF;
     --background: #f5f7fa;
     --card-bg: #ffffff;
     --text: #2c3e50;
@@ -19,8 +19,7 @@
   }
   
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--background);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: var(--text);
     line-height: 1.6;
     display: flex;
@@ -61,7 +60,7 @@
   .drop-zone {
     border: 2px dashed var(--primary);
     border-radius: 12px;
-    padding: 40px;
+    padding: 80px;
     text-align: center;
     cursor: pointer;
     transition: var(--transition);
